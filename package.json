@@ -1,0 +1,21 @@
+{
+  "name": "objectify-css",
+  "version": "0.0.1",
+  "description": "CLI for converting CSS rules to JavaScript style objects",
+  "bin": {
+    "objectify-css": "bin/objectify-css.js"
+  },
+  "keywords": [
+    "css",
+    "css-in-js",
+    "cli"
+  ],
+  "author": "Lachlan Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^1.1.2",
+    "css-to-object": "^1.0.0",
+    "meow": "^3.7.0",
+    "stringify-object": "^3.2.0"
+  }
+}
