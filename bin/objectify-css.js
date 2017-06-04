@@ -1,14 +1,8 @@
 #!/usr/bin/env node
 
-const meow = require('meow')
-const clipboardy = require('clipboardy')
 const cssToObject = require('css-to-object')
 const stringifyObject = require('stringify-object')
-
-const cli = meow(`
-  Usage
-    $ objectify-css
-`)
+const clipboardy = require('clipboardy')
 
 const input = clipboardy.readSync()
 const css = cssToObject(input)

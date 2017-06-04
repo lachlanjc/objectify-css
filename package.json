@@ -1,12 +1,11 @@
 {
   "name": "objectify-css",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "CLI for converting CSS rules to JavaScript style objects",
   "bin": {
     "objectify-css": "bin/objectify-css.js"
   },
   "scripts": {
-    "docs": "node docs/build",
     "icon": "repng docs/Icon.js -w 512 -h 512 --out-dir docs --filename icon"
   },
   "keywords": [
