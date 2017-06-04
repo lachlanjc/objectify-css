@@ -14,7 +14,8 @@ module.exports = props =>
         padding,
         width,
         height: width,
-        backgroundColor: '#0ae'
+        backgroundColor: '#f30',
+        backgroundImage: 'linear-gradient(60deg, #f30, #f0c)'
       }
     },
     h('img', {
