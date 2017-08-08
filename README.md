@@ -5,7 +5,7 @@ CLI for converting CSS rules to JavaScript style objects
 Uses CSS on clipboard and writes back to clipboard
 
 ```sh
-npm i objectify-css
+npm i -g objectify-css
 objectify-css
 ```
 
